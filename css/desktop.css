@@ -3,6 +3,9 @@ body {
   padding: 0;
 }
 
+
+/* Background */
+
 .light-background {
   height: 100vh;
   background-color: #fff;
@@ -20,6 +23,9 @@ body {
   margin: 0;
 }
 
+
+/* Black Square */
+
 .black-square {
   height: 22vw;
   width: 22vw;
@@ -34,6 +40,9 @@ body {
   position: absolute;
 }
 
+
+/* Logo */
+
 #logo {
   height: auto;
   width: 25vw;
@@ -42,6 +51,9 @@ body {
   top: 5vh;
   right: 40vw;
 }
+
+
+/* Content*/
 
 h1 {
   margin-top: 2.5vh;
@@ -63,12 +75,21 @@ h1 {
   border-color: #F26539;
 }
 
+.form-control:focus {
+  border-color: #F26539;
+  box-shadow: none;
+}
+
 .button-send {
   color: #fff;
   background-color: #F26539;
   border-color: #F26539;
   float: right;
   width: 13vw;
+}
+
+.button-send:hover {
+  color: #fff;
 }
 
 .form-group {
