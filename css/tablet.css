@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.light-background {
+  height: 100vh;
+  background-color: #fff;
+  padding: 2.5vh 2.5vw 2.5vh 2.5vw;
+}
+
+.dark-background {
+  height: 100vh;
+  background-color: #c2c2c2;
+  padding: 2.5vh 2.5vw 2.5vh 2.5vw;
+}
+
+.padding-zero {
+  padding: 0;
+  margin: 0;
+}
+
+.black-square {
+  height: 45vw;
+  width: 45vw;
+  background-color: black;
+  color: #fff;
+  font-size: 2.5vh;
+  line-height: 45vw;
+  border-radius: 3vh;
+  text-align: center;
+  bottom: 2.5vw;
+  position: absolute;
+}
+
+#logo {
+  height: auto;
+  width: 50vw;
+  position: absolute;
+  z-index: 1;
+  top: 5vh;
+  right: 30vw;
+}
+
+h1 {
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  font-size: 4vh;
+}
+
+#line-orange {
+  border-color: #F26539;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+
+#text {
+  font-size: 2vh;
+}
+
+.form-control {
+  border-color: #F26539;
+  height: 5vh;
+}
+
+.button-send {
+  color: #fff;
+  background-color: #F26539;
+  border-color: #F26539;
+  float: right;
+  width: 22.5vw;
+  height: 5vh;
+}
+
+.form-group {
+  margin-bottom: 2vh;
+}
+
+.form-wrapper {
+  position: absolute;
+  bottom: 2.5vh;
+  width: 45vw;
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 15vh;
+  width: 45vw;
+  ;
+}
